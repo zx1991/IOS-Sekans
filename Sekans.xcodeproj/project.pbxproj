@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1A06A71FD077E3008ABE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06A61FD077E3008ABE53 /* AppDelegate.swift */; };
+		AC1A06A91FD077E3008ABE53 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06A81FD077E3008ABE53 /* SettingViewController.swift */; };
+		AC1A06AB1FD077E3008ABE53 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06AA1FD077E3008ABE53 /* ScoreViewController.swift */; };
+		AC1A06AE1FD077E3008ABE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A06AC1FD077E3008ABE53 /* Main.storyboard */; };
+		AC1A06B01FD077E3008ABE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1A06AF1FD077E3008ABE53 /* Assets.xcassets */; };
+		AC1A06B31FD077E3008ABE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A06B11FD077E3008ABE53 /* LaunchScreen.storyboard */; };
+		AC1A06BE1FD077E3008ABE53 /* SekansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06BD1FD077E3008ABE53 /* SekansTests.swift */; };
+		AC1A06C91FD077E3008ABE53 /* SekansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06C81FD077E3008ABE53 /* SekansUITests.swift */; };
+		AC1A06D71FD07A03008ABE53 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A06D61FD07A03008ABE53 /* PlayViewController.swift */; };
+		ACBECD971FDB3B3D00C443B2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBECD961FDB3B3D00C443B2 /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1A06BA1FD077E3008ABE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1A069B1FD077E2008ABE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1A06A21FD077E2008ABE53;
+			remoteInfo = Sekans;
+		};
+		AC1A06C51FD077E3008ABE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1A069B1FD077E2008ABE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1A06A21FD077E2008ABE53;
+			remoteInfo = Sekans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1A06A31FD077E3008ABE53 /* Sekans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sekans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1A06A61FD077E3008ABE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1A06A81FD077E3008ABE53 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		AC1A06AA1FD077E3008ABE53 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		AC1A06AD1FD077E3008ABE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1A06AF1FD077E3008ABE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1A06B21FD077E3008ABE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1A06B41FD077E3008ABE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1A06B91FD077E3008ABE53 /* SekansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SekansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1A06BD1FD077E3008ABE53 /* SekansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SekansTests.swift; sourceTree = "<group>"; };
+		AC1A06BF1FD077E3008ABE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1A06C41FD077E3008ABE53 /* SekansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SekansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1A06C81FD077E3008ABE53 /* SekansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SekansUITests.swift; sourceTree = "<group>"; };
+		AC1A06CA1FD077E3008ABE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1A06D61FD07A03008ABE53 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		ACBECD961FDB3B3D00C443B2 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1A06A01FD077E2008ABE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06B61FD077E3008ABE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06C11FD077E3008ABE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1A069A1FD077E2008ABE53 = {
+			isa = PBXGroup;
+			children = (
+				AC1A06A51FD077E3008ABE53 /* Sekans */,
+				AC1A06BC1FD077E3008ABE53 /* SekansTests */,
+				AC1A06C71FD077E3008ABE53 /* SekansUITests */,
+				AC1A06A41FD077E3008ABE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1A06A41FD077E3008ABE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A06A31FD077E3008ABE53 /* Sekans.app */,
+				AC1A06B91FD077E3008ABE53 /* SekansTests.xctest */,
+				AC1A06C41FD077E3008ABE53 /* SekansUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1A06A51FD077E3008ABE53 /* Sekans */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A06A61FD077E3008ABE53 /* AppDelegate.swift */,
+				AC1A06A81FD077E3008ABE53 /* SettingViewController.swift */,
+				AC1A06AA1FD077E3008ABE53 /* ScoreViewController.swift */,
+				AC1A06D61FD07A03008ABE53 /* PlayViewController.swift */,
+				AC1A06AC1FD077E3008ABE53 /* Main.storyboard */,
+				ACBECD961FDB3B3D00C443B2 /* GameView.swift */,
+				AC1A06AF1FD077E3008ABE53 /* Assets.xcassets */,
+				AC1A06B11FD077E3008ABE53 /* LaunchScreen.storyboard */,
+				AC1A06B41FD077E3008ABE53 /* Info.plist */,
+			);
+			path = Sekans;
+			sourceTree = "<group>";
+		};
+		AC1A06BC1FD077E3008ABE53 /* SekansTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A06BD1FD077E3008ABE53 /* SekansTests.swift */,
+				AC1A06BF1FD077E3008ABE53 /* Info.plist */,
+			);
+			path = SekansTests;
+			sourceTree = "<group>";
+		};
+		AC1A06C71FD077E3008ABE53 /* SekansUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A06C81FD077E3008ABE53 /* SekansUITests.swift */,
+				AC1A06CA1FD077E3008ABE53 /* Info.plist */,
+			);
+			path = SekansUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1A06A21FD077E2008ABE53 /* Sekans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1A06CD1FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "Sekans" */;
+			buildPhases = (
+				AC1A069F1FD077E2008ABE53 /* Sources */,
+				AC1A06A01FD077E2008ABE53 /* Frameworks */,
+				AC1A06A11FD077E2008ABE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sekans;
+			productName = Sekans;
+			productReference = AC1A06A31FD077E3008ABE53 /* Sekans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1A06B81FD077E3008ABE53 /* SekansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1A06D01FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "SekansTests" */;
+			buildPhases = (
+				AC1A06B51FD077E3008ABE53 /* Sources */,
+				AC1A06B61FD077E3008ABE53 /* Frameworks */,
+				AC1A06B71FD077E3008ABE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1A06BB1FD077E3008ABE53 /* PBXTargetDependency */,
+			);
+			name = SekansTests;
+			productName = SekansTests;
+			productReference = AC1A06B91FD077E3008ABE53 /* SekansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC1A06C31FD077E3008ABE53 /* SekansUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1A06D31FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "SekansUITests" */;
+			buildPhases = (
+				AC1A06C01FD077E3008ABE53 /* Sources */,
+				AC1A06C11FD077E3008ABE53 /* Frameworks */,
+				AC1A06C21FD077E3008ABE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1A06C61FD077E3008ABE53 /* PBXTargetDependency */,
+			);
+			name = SekansUITests;
+			productName = SekansUITests;
+			productReference = AC1A06C41FD077E3008ABE53 /* SekansUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1A069B1FD077E2008ABE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Guest User";
+				TargetAttributes = {
+					AC1A06A21FD077E2008ABE53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					AC1A06B81FD077E3008ABE53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1A06A21FD077E2008ABE53;
+					};
+					AC1A06C31FD077E3008ABE53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1A06A21FD077E2008ABE53;
+					};
+				};
+			};
+			buildConfigurationList = AC1A069E1FD077E2008ABE53 /* Build configuration list for PBXProject "Sekans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1A069A1FD077E2008ABE53;
+			productRefGroup = AC1A06A41FD077E3008ABE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1A06A21FD077E2008ABE53 /* Sekans */,
+				AC1A06B81FD077E3008ABE53 /* SekansTests */,
+				AC1A06C31FD077E3008ABE53 /* SekansUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1A06A11FD077E2008ABE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A06B31FD077E3008ABE53 /* LaunchScreen.storyboard in Resources */,
+				AC1A06B01FD077E3008ABE53 /* Assets.xcassets in Resources */,
+				AC1A06AE1FD077E3008ABE53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06B71FD077E3008ABE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06C21FD077E3008ABE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1A069F1FD077E2008ABE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A06D71FD07A03008ABE53 /* PlayViewController.swift in Sources */,
+				AC1A06AB1FD077E3008ABE53 /* ScoreViewController.swift in Sources */,
+				AC1A06A71FD077E3008ABE53 /* AppDelegate.swift in Sources */,
+				AC1A06A91FD077E3008ABE53 /* SettingViewController.swift in Sources */,
+				ACBECD971FDB3B3D00C443B2 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06B51FD077E3008ABE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A06BE1FD077E3008ABE53 /* SekansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1A06C01FD077E3008ABE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A06C91FD077E3008ABE53 /* SekansUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1A06BB1FD077E3008ABE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1A06A21FD077E2008ABE53 /* Sekans */;
+			targetProxy = AC1A06BA1FD077E3008ABE53 /* PBXContainerItemProxy */;
+		};
+		AC1A06C61FD077E3008ABE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1A06A21FD077E2008ABE53 /* Sekans */;
+			targetProxy = AC1A06C51FD077E3008ABE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1A06AC1FD077E3008ABE53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1A06AD1FD077E3008ABE53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC1A06B11FD077E3008ABE53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1A06B21FD077E3008ABE53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1A06CB1FD077E3008ABE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1A06CC1FD077E3008ABE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1A06CE1FD077E3008ABE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sekans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.Sekans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC1A06CF1FD077E3008ABE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sekans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.Sekans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC1A06D11FD077E3008ABE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SekansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.SekansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sekans.app/Sekans";
+			};
+			name = Debug;
+		};
+		AC1A06D21FD077E3008ABE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SekansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.SekansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sekans.app/Sekans";
+			};
+			name = Release;
+		};
+		AC1A06D41FD077E3008ABE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SekansUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.SekansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sekans;
+			};
+			name = Debug;
+		};
+		AC1A06D51FD077E3008ABE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SekansUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sekans.SekansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sekans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1A069E1FD077E2008ABE53 /* Build configuration list for PBXProject "Sekans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1A06CB1FD077E3008ABE53 /* Debug */,
+				AC1A06CC1FD077E3008ABE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1A06CD1FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "Sekans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1A06CE1FD077E3008ABE53 /* Debug */,
+				AC1A06CF1FD077E3008ABE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1A06D01FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "SekansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1A06D11FD077E3008ABE53 /* Debug */,
+				AC1A06D21FD077E3008ABE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1A06D31FD077E3008ABE53 /* Build configuration list for PBXNativeTarget "SekansUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1A06D41FD077E3008ABE53 /* Debug */,
+				AC1A06D51FD077E3008ABE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1A069B1FD077E2008ABE53 /* Project object */;
+}
